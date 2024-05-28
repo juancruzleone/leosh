@@ -1,4 +1,3 @@
-// MainH1.tsx
 type MainH1Props = {
     title: string;
 };
@@ -12,3 +11,4 @@ const MainH1 = ({ title }: MainH1Props) => {
 }
 
 export default MainH1;
+
