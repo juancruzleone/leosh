@@ -1,8 +1,12 @@
+import Layout from '../components/Layout';
+import MainH1 from '../components/MainH1';
+
 const Home = () => {
-  return(
-    <>
-    </>
-  )
+    return (
+        <Layout>
+            <MainH1 title="Leosh" />
+        </Layout>
+    );
 }
 
-export default Home
+export default Home;
